@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: black;
+    background: linear-gradient(150deg, #ffd500, #ffffff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.conteudo{
+    display: flex;
+    height: 100vh;
+}
+.descricao{
+    margin: auto;
+}
+.conteudoIcone{
+    display: flex;
+}
+.icone{
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+}
+
+h1, h2{
+    text-align: center;
+    padding: 5px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+
+.conteudoLink{
+    display: flex;
+}
+.link{
+    margin: 10px auto;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    border-radius:  50px;
+    color: #8e7600;
+}
