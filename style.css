@@ -6,10 +6,13 @@
 }
 body{
     background-color: black;
-    background: linear-gradient(150deg, #ffd500, #ffffff);
+    background: linear-gradient(140deg, #673826, #D9B46E);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+a{
+    text-decoration: none;
 }
 
 .conteudo{
@@ -31,6 +34,10 @@ body{
 h1, h2{
     text-align: center;
     padding: 5px;
+    color: #ffffff;
+}
+#botaoVerificado{
+    color: #EBD46A;
 }
 h1{
     font-size: 30px;
@@ -40,12 +47,14 @@ h2{
 }
 
 .conteudoLink{
-    display: flex;
+    display: grid;
+    margin: 20px;
 }
 .link{
-    margin: 10px auto;
-    padding: 5px 30px;
-    background-color: #ffffff;
+    margin: 5px auto;
+    padding: 15px 30px;
+    background-color: #ffffff72;
     border-radius:  50px;
-    color: #8e7600;
+    color: #ffffff;
+    font-size: 18px;
 }
