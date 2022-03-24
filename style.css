@@ -29,21 +29,49 @@ a{
     border-radius: 50%;
     height: 150px;
     margin: auto;
+    box-shadow: 0px 0px 10px 5px #673826;
 }
 
 h1, h2{
     text-align: center;
-    padding: 5px;
     color: #ffffff;
 }
 #botaoVerificado{
     color: #EBD46A;
+    padding-top: 15px;
+    padding-left: 10px;
+    /* margin: auto; */
+    position: absolute;
 }
+@font-face {
+    font-family: lovely;
+    src: Url("fonte/lovely-golden/lovely\ golden\ ttf.ttf");
+}
+/* @font-face {
+    font-family: th1;
+    src: Url("fonte/boarding/Boarding\ PersonalUse.ttf");
+} */
 h1{
-    font-size: 30px;
+    font-size: 20px;
+    font-family: lovely;
+    padding: 5px;
+    /* text-decoration: underline wavy #ffffff70; */
 }
 h2{
-    font-size: 25px;
+    color: #ffffffc8;
+    font-weight: 200;
+    padding-bottom: 2px;
+}
+#texto1{
+    font-size: 20px;
+}
+#texto2{
+    font-size: 17px;
+}
+.CRP{    
+    font-style: italic;
+    font-weight: 600;
+
 }
 
 .conteudoLink{
@@ -55,6 +83,13 @@ h2{
     padding: 15px 30px;
     background-color: #ffffff72;
     border-radius:  50px;
-    color: #ffffff;
-    font-size: 18px;
+    color: #673826;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.iconeLink{
+    margin: auto;
+    padding-right: 5px;
+    color: #673826bb;
 }
