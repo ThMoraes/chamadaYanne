@@ -22,6 +22,10 @@ a{
 .descricao{
     margin: auto;
 }
+#descricaoMeusDados{
+    background-color: #ffffff72;
+    border-radius: 20px;
+}
 .conteudoIcone{
     display: flex;
 }
@@ -42,6 +46,14 @@ h1, h2{
     padding-left: 10px;
     /* margin: auto; */
     position: absolute;
+}
+.botaoVoltar{
+    background-color: #EBD46A;
+    color: #673826;
+    padding: 5px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 0px 0px 10px 0px;
 }
 @font-face {
     font-family: lovely;
@@ -74,7 +86,7 @@ h2{
 
 }
 
-.conteudoLink{
+.conteudoLink, .conteudoContato{
     display: grid;
     margin: 20px;
 }
@@ -87,9 +99,27 @@ h2{
     font-size: 16px;
     font-weight: bolder;
 }
+#linkMeusDados{
+    background-color: #ffffff00;
+    /* color: #ffffff; */
+    color: #673826;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 
 .iconeLink{
     margin: auto;
     padding-right: 5px;
     color: #673826bb;
+}
+
+.contato{
+    color: #673826;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.descricaoContato{
+    color: #673826d6;
 }
