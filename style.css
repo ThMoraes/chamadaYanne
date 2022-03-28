@@ -75,6 +75,7 @@ h2{
 .CRP{    
     font-style: italic;
     font-weight: 600;
+    text-decoration: none;
 
 }
 
@@ -121,10 +122,10 @@ h2{
 }  
 @keyframes LinkMenusDados {
     from {
-        transform:translateX(0) scale(1.0);
+        transform:translateX(0) scale(0.9);
     }
     to {
-        transform:translateX(0) scale(1.2);
+        transform:translateX(0) scale(1.0);
         background-color: #ffffffc1;
     }
 }
@@ -149,7 +150,7 @@ h2{
 .botaoVoltar{
     color: #673826;
     background-color: #EBD46A;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
     position: absolute;
     border-radius: 0px 0px 10px 0px;
