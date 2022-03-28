@@ -115,14 +115,15 @@ h2{
     position: absolute;
     right: 0;
     bottom: 0;
-    margin: 7px 25px;
     padding: 10px;
     border-radius: 10px;
+    margin: 2px;
     animation: LinkMenusDados 1s infinite alternate;
 }  
 @keyframes LinkMenusDados {
     from {
         transform:translateX(0) scale(0.9);
+        opacity: 0;
     }
     to {
         transform:translateX(0) scale(1.0);
