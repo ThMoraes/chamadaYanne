@@ -47,14 +47,6 @@ h1, h2{
     /* margin: auto; */
     position: absolute;
 }
-.botaoVoltar{
-    background-color: #EBD46A;
-    color: #673826;
-    padding: 5px;
-    font-size: 20px;
-    position: absolute;
-    border-radius: 0px 0px 10px 0px;
-}
 @font-face {
     font-family: lovely;
     src: Url("fonte/lovely-golden/lovely\ golden\ ttf.ttf");
@@ -98,6 +90,22 @@ h2{
     color: #673826;
     font-size: 16px;
     font-weight: bolder;
+    transition: transform 1s;
+}
+.linkBotao{
+    margin: 5px auto;
+    padding: 15px 30px;
+    background-color: #ffffff72;
+    color: #673826;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.link:hover,.link:focus {
+    background-color: #ffffff;
+    font-size: 19px;
+    padding: 13px 35px;
+
 }
 #linkMeusDados{
     background-color: #ffffff00;
@@ -106,6 +114,24 @@ h2{
     position: absolute;
     right: 0;
     bottom: 0;
+    margin: 7px 25px;
+    padding: 10px;
+    margin-right: -90px;
+    padding-right: 110px;
+    margin-bottom: -90px;
+    padding-bottom: 100px;
+    border-radius: 100% 0px 0px 0px;
+    animation: LinkMenusDados 1s infinite alternate;
+}  
+@keyframes LinkMenusDados {
+    from {
+        transform:translateX(0) scale(1.0);
+    }
+    to {
+        transform:translateX(0) scale(1.2);
+        background-color: #ffffffc1;
+        border-radius:  5px;
+    }
 }
 
 .iconeLink{
@@ -122,4 +148,24 @@ h2{
 }
 .descricaoContato{
     color: #673826d6;
+}
+
+
+.botaoVoltar{
+    color: #673826;
+    background-color: #EBD46A;
+    padding: 5px;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 0px 0px 10px 0px;
+    animation: botaoVOltar 1s infinite alternate;
+}  
+@keyframes botaoVOltar {
+    from {
+        transform:translateX(0) scale(1.0);
+    }
+    to {
+        transform:translateX(0) scale(1.2);
+        background-color: #EBD46A;
+    }
 }
